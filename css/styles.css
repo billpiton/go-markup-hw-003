@@ -142,13 +142,13 @@ img {
 }
 container {
 }
-.mainsection-b-container-list {
+.mainsection-b-container-list li {
   display: flex;
   gap: 24px;
   margin-right: 24px;
 }
-.mainsection-b-container-list-item {
-  width: calc (100% - 72px);
+.mainsection-b-container-list li:first-child {
+  width: calc((100% - 72px) / 4);
 }
 .strategy {
   font-weight: 500;
