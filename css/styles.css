@@ -27,12 +27,17 @@ h6 {
 img {
   display: block;
 }
-.header-container {
+.header {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 .container {
   width: 1158px;
   padding: 0 15px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -82,6 +87,7 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 0;
+  display: flex;
 }
 .contact-list.contact-list-item {
   margin-right: 40px;
