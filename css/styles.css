@@ -11,6 +11,18 @@ a {
 ul {
   list-style: none;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap; /* Запобігає переносу тексту */
+  word-wrap: normal; /* Зберігає нормальний перетворення слів */
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -155,14 +167,16 @@ img {
 }
 container {
 }
-.mainsection-b-container-list li {
+.mainsection-b-container-list {
   display: flex;
+  align-items: center;
   gap: 24px;
   margin-right: 24px;
 }
-.mainsection-b-container-list li:first-child {
+.mainsection-b-container-list-item:first-child {
   width: calc((100% - 72px) / 4);
 }
+
 .strategy {
   font-weight: 500;
   font-size: 20px;
