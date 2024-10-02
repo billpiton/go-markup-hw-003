@@ -34,14 +34,20 @@ img {
 .container {
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 .header-container {
   display: flex;
   align-items: center;
 }
-.nav-list {
+.nav-list li {
   display: flex;
   align-items: center;
+  gap: 40px;
+  margin-right: 40px;
+}
+.nav-list li:last-child {
+  margin-right: 0;
 }
 
 .logo-a {
@@ -52,6 +58,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-b {
   font-family: 'Raleway', sans-serif;
@@ -66,6 +73,7 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
+  align-items: ;
 }
 .features-list {
   padding: 24px 0;
@@ -86,13 +94,12 @@ img {
 .contact-list {
   display: flex;
   gap: 40px;
-  margin-right: 0;
-  display: flex;
-}
-.contact-list.contact-list-item {
   margin-right: 40px;
+  display: flex;
+  align-items: ;
 }
-.contact-list.contact-list-item :last-child {
+
+.contact-list li:last-child {
   margin-right: 0;
 }
 .list-of-contact {
