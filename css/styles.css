@@ -169,7 +169,8 @@ img {
 .mainsection-b {
   padding: 120px 0;
 }
-container {
+.visually-hidden {
+  overflow: hidden;
 }
 .mainsection-b-container-list {
   display: flex;
