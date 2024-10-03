@@ -186,7 +186,7 @@ img {
   margin-right: 24px;
 }
 .mainsection-b-container-list.item:first-child {
-  width: calc ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .strategy {
@@ -226,7 +226,7 @@ img {
 /*.first-of-mainsection-c {
   background-color: #ffffff;
 }*/
-.mainsection-c-container-list:first-child {
+.mainsection-c-container-list.item:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
