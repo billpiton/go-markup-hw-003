@@ -50,9 +50,9 @@ img {
 .nav-list li:last-child {
   margin-right: 0;
 }
-.logo {
+/*.logo {
   margin-right: 76px;
-}
+}*/
 .logo-a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -61,9 +61,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-left: 76px;
-  margin-top: 76pc;
-  margin-bottom: 76px;
 }
 .logo-b {
   font-family: 'Raleway', sans-serif;
@@ -74,8 +71,6 @@ img {
   text-transform: uppercase;
   color: #2e2f42;
   margin-right: 76px;
-  margin-top: 76px;
-  margin-bottom: 76px;
 }
 .header-list {
   display: flex;
