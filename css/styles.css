@@ -89,7 +89,13 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
-  align-items: ;
+  padding: 24px 0;
+}
+.header-list.item {
+  margin-right: 40px;
+}
+.header-list.item:last-child {
+  margin-right: 0;
 }
 .features-list {
   padding: 24px 0;
@@ -114,8 +120,11 @@ img {
   display: flex;
   align-items: ;
 }
+.contact-list.item {
+  margin-right: 40px;
+}
 
-.contact-list li:last-child {
+.contact-list.item:last-child {
   margin-right: 0;
 }
 .list-of-contact {
@@ -177,6 +186,7 @@ img {
   margin-right: 24px;
 }
 .mainsection-b-container-list.item:first-child {
+  width: calc((100% - 72px) / 4);
   width: calc((100% - 72px) / 4);
 }
 
