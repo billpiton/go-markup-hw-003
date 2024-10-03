@@ -50,7 +50,9 @@ img {
 .nav-list li:last-child {
   margin-right: 0;
 }
-
+.logo {
+  margin-right: 76px;
+}
 .logo-a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
