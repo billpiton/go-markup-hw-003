@@ -185,14 +185,10 @@ img {
   align-items: center;
   gap: 24px;
   margin-right: 24px;
-  padding-left: 0; 
-  margin: 0
-}
-.mainsection-b-container-list {
   padding-left: 0;
   margin: 0;
 }
-}
+
 .mainsection-b-container-list.item:first-child {
   width: calc((100% - 72px) / 4);
 }
