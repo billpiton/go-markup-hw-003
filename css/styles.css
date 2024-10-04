@@ -185,8 +185,6 @@ img {
   align-items: center;
   gap: 24px;
   margin-right: 24px;
-  padding-left: 0;
-  margin: 0;
 }
 
 .mainsection-b-container-list.item:first-child {
@@ -217,8 +215,6 @@ img {
 .mainsection-c-container-list {
   display: flex;
   gap: 24px;
-  padding-left: 0;
-  margin: 0;
 }
 .our-team {
   font-size: 36px;
