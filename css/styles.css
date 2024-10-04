@@ -234,6 +234,8 @@ img {
 }*/
 .mainsection-c-container-list.item:first-child {
   width: calc((100% - 72px) / 4);
+}
+.mainsection-c-container-list.item {
   border-radius: 0px 0px 4px 4px;
 }
 .mainsection-c-container {
