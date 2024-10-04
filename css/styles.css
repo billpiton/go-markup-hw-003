@@ -176,7 +176,7 @@ img {
   margin: 0;
 }
 
-.mainsection-b-container-list.item {
+.item-b {
   width: calc((100% - 72px) / 4);
 }
 
