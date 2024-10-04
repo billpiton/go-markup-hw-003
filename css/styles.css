@@ -217,7 +217,7 @@ img {
 /*.first-of-mainsection-c {
   background-color: #ffffff;
 }*/
-.mainsection-c-container-list.item {
+.item-c {
   border-radius: 0px 0px 4px 4px;
 }
 .mainsection-c-container-list.item:first-child {
