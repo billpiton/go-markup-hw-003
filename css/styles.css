@@ -76,6 +76,7 @@ img {
   display: flex;
   gap: 40px;
   padding: 24px 0;
+  margin: 0;
 }
 .header-list.item {
   margin-right: 40px;
@@ -105,6 +106,8 @@ img {
   margin-right: 40px;
   display: flex;
   align-items: ;
+  padding-left: 0;
+  margin: 0;
 }
 .contact-list.item {
   margin-right: 40px;
@@ -212,6 +215,8 @@ img {
 .mainsection-c-container-list {
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin: 0;
 }
 .our-team {
   font-size: 36px;
@@ -266,6 +271,8 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-left: 0;
+  margin: 0;
 }
 .mainsection-d-container-list.item:first-child {
   width: calc((100% - 48px) / 3);
